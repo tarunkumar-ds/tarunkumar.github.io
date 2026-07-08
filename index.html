@@ -358,6 +358,14 @@
     line-height:1.05;
     letter-spacing:-0.01em;
     margin-bottom:30px;
+    max-width:100%;
+  }
+  .contact-big .contact-email{
+    display:block;
+    font-size:clamp(20px, 3vw, 40px);
+    overflow-wrap:anywhere;
+    word-break:break-word;
+    margin-top:10px;
   }
   .contact-big a{ text-decoration:none; border-bottom:3px solid var(--accent); }
   .contact-big a:hover{ color:var(--accent); }
@@ -491,7 +499,7 @@
         <div class="skill-list"><span>S3</span><span>EC2</span><span>SNS</span><span>Route 53</span><span>IAM</span></div>
       </div>
 
-      <div class="skill-row">
+       <div class="skill-row">
         <div class="skill-cat">Libraries</div>
         <div class="skill-list"><span>Pandas</span><span>Numpy</span><span>Scikit-learn</span><span>Tensor-Flow</span><span>Keras</span></div>
       </div>
@@ -589,7 +597,7 @@
       <div class="sec-sub">Get in touch</div>
     </div>
     <div class="sec-body">
-      <p class="contact-big">Let's talk data.<br><a href="mailto:tarunkk.ds@gmail.com">tarunkk.ds@gmail.com</a></p>
+      <p class="contact-big">Let's talk data.<span class="contact-email"><a href="mailto:tarunkk.ds@gmail.com">tarunkk.ds@gmail.com</a></span></p>
       <a href="mailto:tarunkk.ds@gmail.com" class="btn-solid">Say hello</a>
     </div>
   </div>
@@ -629,4 +637,5 @@
 
 </body>
 </html>
+
 
